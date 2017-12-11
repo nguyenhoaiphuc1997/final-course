@@ -31,3 +31,11 @@ body {
 .py-5{
   color: #fff;
 }
+form {
+  padding-left: 100px;
+}
+form .sm {
+  width: 15%;
+  margin-left: 65px;
+
+}

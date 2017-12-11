@@ -29,7 +29,7 @@
                     <img src="<?php echo URL_IMAGE.$row['image'];?>" width="300" hight="500" alt="">
                     <div class="card-body">
                       <h3 class="card-title"><?php echo $row["name"]; ?></h3>
-                      <h4><?php echo $row["price"]; ?></h4>
+                      <h4><?php echo $row["price"]; ?> VND</h4>
                       <p class="card-text"><?php echo $row["description"];?></p>
                       <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                       4.0 stars
