@@ -62,7 +62,7 @@
             while($row = mysqli_fetch_assoc($result)) {?>
               <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                  <a href="single.php?product_id=<?php echo $row["id"];?>"><img class="card-img-top" src="<?php echo URL_IMAGE.$row['image'];?>" alt=""></a>
+                  <a href="single.php?products_id=<?php echo $row["id"];?>"><img class="card-img-top" src="<?php echo URL_IMAGE.$row['image'];?>" alt=""></a>
                   <div class="card-body">
                     <h4 class="card-title">
                       <a href="#"><?php echo $row["name"];?></a>
